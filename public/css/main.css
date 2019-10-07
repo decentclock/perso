@@ -1,5 +1,5 @@
 body{
-  background-color: #FF5733;
+  background-color: black;
 }
 
 p{
@@ -8,4 +8,27 @@ p{
   text-align: center;
   margin-top: 10%;
   font-size: 5rem;
+}
+
+.pic{
+  /* display: inline; */
+  height: 100px;
+  /* margin-left: 100px; */
+}
+
+.image{
+  background-color: red;
+  /* display: inline; */
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+.name{
+  color: white;
+  background-color: green;
+  /* display: inline; */
+  float: left;
+  width: 50%;
+  height: 500px;
 }
