@@ -3,32 +3,36 @@ body{
 }
 
 p{
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-align: center;
-  margin-top: 10%;
-  font-size: 5rem;
+  /* margin-top: 10%; */
+  font-size: 3rem;
 }
 
 .pic{
   /* display: inline; */
-  height: 100px;
+  height: 300px;
   /* margin-left: 100px; */
 }
 
 .image{
-  background-color: red;
+  /* background-color: red; */
   /* display: inline; */
   float: left;
-  width: 50%;
+  width: 30%;
   height: 500px;
+  text-align: center;
+  padding-top: 10%;
+  /* padding-left: 2%; */
 }
 
 .name{
   color: white;
-  background-color: green;
+  /* background-color: green; */
   /* display: inline; */
   float: left;
-  width: 50%;
+  width: 70%;
   height: 500px;
+  padding-top: 10%;
 }
