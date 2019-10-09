@@ -2,8 +2,8 @@ function adjustHeights(){
   if ($(window).width()<=1000)
   {
     var x = $(window).height();
-    $(".image").css("height","350px");
-    $(".name").css("height",4*x/3);
+    $(".image").css("height",x/2);
+    $(".name").css("height",x/2);
   } else {
     var x = $(window).height();
     $(".image").css("height",x);
