@@ -1,5 +1,5 @@
 function adjustHeights(){
-  if ($(window).width()<=1000)
+  if ($(window).width()<=800)
   {
     var x = $(window).height();
     $(".image").css("height",2/3*$(window).width());
