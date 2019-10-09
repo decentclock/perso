@@ -11,42 +11,43 @@ p {
 }
 
 .pic {
-  width: 75%;
+  width: 30%;
 }
 
 .image {
-  /* background-color: red; */
-  width: 30%;
-  float: left;
-  padding-top: 10%;
-  padding-left: 5%;
+  background-color: red;
+  /* width: 100%; */
+  /* float: left; */
+  /* padding-top: 10%; */
+  /* padding-left: 5%; */
+  /* display: inline-block; */
 }
 
 .name {
   color: white;
-  /* background-color: green; */
-  width: 70%;
-  float: left;
-  padding-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
+  background-color: green;
+  /* width: 70%; */
+  /* float: left; */
+  /* padding-top: 10%; */
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
 }
 
-@media (max-width: 800px) {
-  .name {
-    float: none;
-    width: 100%;
-    padding-top: 15%;
-  }
-
-  .image {
-    float: none;
-    width: 100%;
-    padding-top: 50px;
-  }
+@media (min-width: 1000px) {
 
   .pic {
-    height: 100%;
-    width: auto;
+    width: 75%;
   }
+  .image {
+    float: left;
+    width: 30%;
+    /* padding-top: 50px; */
+  }
+
+  .name {
+    float: left;
+    width: 70%;
+    /* padding-top: 0; */
+  }
+
 }
