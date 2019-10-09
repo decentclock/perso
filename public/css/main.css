@@ -7,7 +7,7 @@ p {
   font-family: 'Roboto', sans-serif;
   color: white;
   text-align: left;
-  font-size: 16px;
+  font-size: 3vmin;
 }
 
 .pic {
@@ -34,10 +34,6 @@ p {
 }
 
 @media (min-width: 1000px) {
-
-  p {
-    font-size: 16px;
-  }
 
   .pic {
     width: 75%;
