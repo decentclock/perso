@@ -12,7 +12,7 @@ p {
 }
 
 .pic {
-  width: 30%;
+  width: 300px;
 }
 
 .image {
@@ -34,10 +34,10 @@ p {
   /* padding-right: 5%; */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1001px) {
 
   .pic {
-    width: 75%;
+    /* width: 75%; */
   }
   .image {
     float: left;
