@@ -4,51 +4,41 @@ body {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: white;
   text-align: left;
   font-size: 18px;
-  /* font-size: 1.25 em */
 }
 
 .pic {
   width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
-  background-color: red;
-  /* width: 100%; */
-  /* float: left; */
-  /* padding-top: 10%; */
-  /* padding-left: 5%; */
-  /* display: inline-block; */
+  /* background-color: red; */
+  padding-top: 10%;
 }
 
 .name {
   color: white;
-  background-color: green;
-  /* width: 70%; */
-  /* float: left; */
-  /* padding-top: 10%; */
-  /* padding-left: 5%; */
-  /* padding-right: 5%; */
+  padding: 5%;
+  /* background-color: green; */
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 751px) {
 
-  .pic {
-    /* width: 75%; */
-  }
   .image {
     float: left;
-    width: 30%;
-    /* padding-top: 50px; */
+    width: 40%;
+    padding-top: 100px;
   }
 
   .name {
     float: left;
-    width: 70%;
-    /* padding-top: 0; */
+    width: 60%;
+    padding-top: 100px;
   }
-
 }
