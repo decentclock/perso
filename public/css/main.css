@@ -1,54 +1,56 @@
 body {
-  /* background-color: black; */
-  /* margin: 0; */
-  margin-bottom: 100px;
-}
-
-h1{
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-bottom: 0;
-}
-
-h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-top: 7%;
-  margin-left: 5%;
-  margin-bottom: 3%;
+  background-color: black;
+  margin: 0 0 5%;
 }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
+  color: white;
   text-align: left;
   font-size: 18px;
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 32px;
-  letter-spacing: 0px;
 }
 
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  /* margin-bottom: 1rem; */
+}
 
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
 
-@media (min-width: 767px) {
+.pic {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  h1{
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
+.image {
+  /* background-color: red; */
+  padding-top: 10%;
+}
+
+.name {
+  color: white;
+  padding: 5%;
+  /* background-color: green; */
+}
+
+@media (min-width: 751px) {
+  .image {
+    float: left;
+    width: 40%;
+    padding-top: 100px;
   }
 
-  h2{
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  p{
-    /* margin-left: 20%; */
-    /* margin-right: 40%; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
+  .name {
+    float: left;
+    width: 60%;
+    padding-top: 100px;
   }
 }
