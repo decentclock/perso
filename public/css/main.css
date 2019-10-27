@@ -39,11 +39,11 @@ a:hover{
 
 .name {
   color: white;
-  padding: 5%;
+  padding: 10%;
   /* background-color: green; */
 }
 
-@media (min-width: 751px) {
+@media (min-width: 950px) {
   .image {
     float: left;
     width: 40%;
@@ -54,5 +54,7 @@ a:hover{
     float: left;
     width: 60%;
     padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 12%;
   }
 }
